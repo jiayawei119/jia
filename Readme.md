@@ -44,10 +44,12 @@ Java重难点
     
 
 2.异常
+  异常的总类为Throwable 下面有error（无法执行的异常） exception（程序可以正常处理的异常）这两个异常子类。下面还有其他的异常。
+  try catch finaly 来捕捉并处理异常。
 
 
-
-3.多线程
-
+3.多线程 
+  线程 进程 以及程序之间的关系。线程以及进程的四种状态。
 
 4.文件与IO
+  BIO NIO AIO   bio同步阻塞io  nio同步非阻塞io  aio是异步阻塞io
